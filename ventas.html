@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>2º Parcial - Tienda de Ventas</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#fafafa}
+header{background:#c0392b;color:#fff;text-align:center;padding:20px}
+main{padding:20px}
+table{border-collapse:collapse;width:100%}
+th,td{border:1px solid #999;padding:8px;text-align:center}
+th{background:#f5b7b1}
+img{width:150px;height:100px;object-fit:cover}
+</style>
+</head>
+<body>
+<header><h1>Mi Tienda en Línea</h1><p>Las mejores ofertas</p></header>
+<main>
+<h2>Catálogo</h2>
+<table>
+<tr><th>Imagen</th><th>Producto</th><th>Descripción</th><th>Precio</th></tr>
+<tr><td><img src="https://picsum.photos/id/1/150/100" alt="Producto 1"></td><td>Laptop</td><td>14 pulgadas, 8 GB RAM</td><td>$9,500 MXN</td></tr>
+<tr><td><img src="https://picsum.photos/id/3/150/100" alt="Producto 2"></td><td>Audífonos</td><td>Inalámbricos</td><td>$650 MXN</td></tr>
+<tr><td><img src="https://picsum.photos/id/20/150/100" alt="Producto 3"></td><td>Teclado</td><td>Mecánico</td><td>$900 MXN</td></tr>
+</table>
+<h2>Haz tu pedido</h2>
+<form action="#" method="post">
+<p>Nombre: <input type="text" name="nombre"></p>
+<p>Correo: <input type="email" name="correo"></p>
+<p>Producto: <select name="producto"><option>Laptop</option><option>Audífonos</option><option>Teclado</option></select></p>
+<p>Cantidad: <input type="number" name="cantidad" min="1" value="1"></p>
+<p><input type="submit" value="Comprar"></p>
+</form>
+</main>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>2º Parcial - Práctica 1</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#ecf0f1}
+h2{color:#117864}
+table{border-collapse:collapse;margin-bottom:15px}
+th,td{border:1px solid #333;padding:6px}
+th{background:#aed6f1}
+td{background:#fdfefe}
+img{width:180px;height:120px;margin:5px;border:2px solid #154360}
+.dividida{display:flex;min-height:100vh}
+.izq{width:50%;padding:15px;background:#d6eaf8}
+.der{width:50%;padding:15px;background:#fcf3cf}
+</style>
+</head>
+<body>
+<h1 style="background-color:#154360;color:#ffffff;padding:15px;margin:0;text-align:center">2º Parcial - Práctica 1: Linux y tecnología</h1>
+<div class="dividida">
+<div class="izq">
+<h2>Imágenes y listas</h2>
+<img src="https://picsum.photos/id/0/180/120" alt="Imagen 1">
+<img src="https://picsum.photos/id/2/180/120" alt="Imagen 2">
+<img src="https://picsum.photos/id/4/180/120" alt="Imagen 3">
+<img src="https://picsum.photos/id/6/180/120" alt="Imagen 4">
+<h3>Herramientas favoritas</h3>
+<ol>
+<li>Terminal</li>
+<li>Git</li>
+<li>Editor de código</li>
+<li>Navegador</li>
+<li>Gestor de paquetes</li>
+</ol>
+<h3>Tabla 1: Distribuciones Linux</h3>
+<table>
+<tr><th>Distro</th><th>Base</th><th>Gestor</th><th>Dificultad</th><th>Uso</th></tr>
+<tr><td>Arch</td><td>Independiente</td><td>pacman</td><td>Alta</td><td>Personalización</td></tr>
+<tr><td>Ubuntu</td><td>Debian</td><td>apt</td><td>Baja</td><td>General</td></tr>
+<tr><td>Fedora</td><td>Independiente</td><td>dnf</td><td>Media</td><td>Desarrollo</td></tr>
+<tr><td>Debian</td><td>Independiente</td><td>apt</td><td>Media</td><td>Servidores</td></tr>
+<tr><td>Manjaro</td><td>Arch</td><td>pacman</td><td>Baja</td><td>Escritorio</td></tr>
+</table>
+</div>
+<div class="der">
+<h2>Formulario y datos</h2>
+<form action="#" method="post">
+<p>Nombre: <input type="text" name="nombre"></p>
+<p>Apellidos: <input type="text" name="apellidos"></p>
+<p>Contraseña: <input type="password" name="clave"></p>
+<p>Correo: <input type="email" name="correo"></p>
+<p>Edad: <input type="number" name="edad" min="10" max="99"></p>
+<p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+<p>Sexo: <input type="radio" name="sexo" value="h"> Hombre <input type="radio" name="sexo" value="m"> Mujer</p>
+<p>Distro favorita: <select name="distro"><option>Arch</option><option>Ubuntu</option><option>Fedora</option></select></p>
+<p>Intereses: <input type="checkbox" name="i1"> Música <input type="checkbox" name="i2"> Programar</p>
+<p>Comentarios:<br><textarea name="coment" rows="3" cols="30"></textarea></p>
+<p><input type="submit" value="Enviar"> <input type="reset" value="Borrar"></p>
+</form>
+<h3>Tabla 2: Lenguajes de programación</h3>
+<table>
+<tr><th>Lenguaje</th><th>Año</th><th>Tipo</th><th>Uso</th><th>Dificultad</th></tr>
+<tr><td>Rust</td><td>2015</td><td>Compilado</td><td>Sistemas</td><td>Alta</td></tr>
+<tr><td>JavaScript</td><td>1995</td><td>Interpretado</td><td>Web</td><td>Media</td></tr>
+<tr><td>Python</td><td>1991</td><td>Interpretado</td><td>Ciencia de datos</td><td>Baja</td></tr>
+<tr><td>C</td><td>1972</td><td>Compilado</td><td>Sistemas</td><td>Alta</td></tr>
+<tr><td>SQL</td><td>1974</td><td>Declarativo</td><td>Bases de datos</td><td>Media</td></tr>
+</table>
+</div>
+</div>
+</body>
+</html>
